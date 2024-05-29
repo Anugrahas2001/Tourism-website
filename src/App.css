@@ -1,0 +1,148 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  top: 0;
+  position: relative;
+}
+
+.Logo {
+  display: flex;
+  width: 100%;
+  height: 4rem;
+  background-color: orange;
+  overflow: hidden;
+}
+
+.orderedList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 2rem;
+}
+
+.orderedList li {
+  margin-left: 2rem;
+  font-size: larger;
+}
+
+.main-container img {
+  width: 100%; /* Full width */
+  max-height: 300px; /* Adjust height as needed */
+  object-fit: cover; /* Maintain aspect ratio */
+}
+.header{
+  display: flex;
+  justify-content: space-around;
+  font-size: medium;
+  font-weight: bolder;
+  height: 500px;
+}
+.header .head{
+  width: 100px;
+  height: 500px;
+  background-color: red;
+}
+.headings{
+  display:flex ;
+  flex-basis: 500px;
+  margin: 10px;
+
+}
+.headings .head:nth-child(1)
+{
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: x-large;
+  
+}
+.headings .head:nth-child(2)
+{
+  background-color: red;
+  width: 448px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+}
+
+.headings img{
+  width: 250px;
+  height: 200px;
+  border-radius: 1rem;
+  margin-left: 10px;
+  
+}
+.headings .details{
+flex-direction: column;
+line-clamp: 2;
+margin-left: 2px;
+}
+.headings .details h1{
+  margin-right: 27px;
+  }
+
+.fav-btn{
+  width: 150px;
+  height: 35px;
+  outline: none;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  font-size: medium;
+  margin: 1rem;
+}
+
+.head img{
+  width: 200px;
+  height: 200px;
+}
+.root{
+  display: flex;
+  width: 100%;
+  height: 400px;
+
+}
+.root .root1{
+  flex-basis: 70%;
+}
+.root .root1 h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.root .root2{
+
+  flex-basis: 30%;
+}
+.root .root2 h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pic{
+  width: 150px;
+  height: 100px;
+  margin-top: 10px;
+  margin-left: 25px;
+  border-radius: 5px;
+}
+.favorites {
+  position: relative;
+  width: 30%;
+}
+.icon {
+  position: absolute;
+  z-index: 1;
+  padding-left: 145px;
+  padding-top: 20px;
+
+}
